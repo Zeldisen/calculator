@@ -8,6 +8,7 @@ public class Main {
         int number1 = 0;
         int number2 = 0;
 
+      
 
 boolean running = true;
 
@@ -76,6 +77,7 @@ boolean running = true;
         System.out.println(number1 + " - " + number2 + " = " + result);
     }
 
+
     public static void multiplication(int number1, int number2) {
         int result = number1 * number2;
         System.out.println(number1 + " * " + number2 + " = " + result);
@@ -86,5 +88,6 @@ boolean running = true;
         System.out.println(number1 + " / " + number2 + " = " + result);
 
     }
+
 
 }
