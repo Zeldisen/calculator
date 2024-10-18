@@ -12,33 +12,34 @@ public class Main {
         number2 = scanner.nextInt();
 
 
-        addition(number1,number2);
-        subtraktion(number1,number2);
-        multiplication(number1,number2);
-        division(number1,number2);
-      
-   public static void addtion(int number1, int number2) {
-        int result = number1 + number2;
-        System.out.println(result);
-    }
-    
-
-    public static void subtraction(int number1, int number2) {
-        int result = number1 - number2;
-        System.out.println(result);
+        addition(number1, number2);
+        subtraction(number1, number2);
+        multiplication(number1, number2);
+        division(number1, number2);
     }
 
-    public static void multiplication(int number1, int number2) {
-        int result = number1 * number2;
-        System.out.println(result);
+        public static void addition ( int number1, int number2){
+            int result = number1 + number2;
+            System.out.println(result);
+        }
+
+
+        public static void subtraction ( int number1, int number2){
+            int result = number1 - number2;
+            System.out.println(result);
+        }
+
+        public static void multiplication ( int number1, int number2){
+            int result = number1 * number2;
+            System.out.println(result);
+        }
+
+        public static void division ( int number1, int number2){
+            double result = (double) number1 / number2;
+            System.out.println(result);
+
+
+        }
+
+
     }
-
-    public static void division(int number1, int number2) {
-        double result = (double)number1 / number2;
-        System.out.println(result);
-
-
-    }
-
-  
-}
