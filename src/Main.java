@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Main {
@@ -11,6 +12,7 @@ public class Main {
         number2 = scanner.nextInt();
 
         addition(number1,number2);
+
         subtraction(number1, number2);
         multiplication(number1, number2);
         division(number1, number2);
@@ -35,5 +37,6 @@ public class Main {
     public static void division(int number1, int number2) {
         int result = number1 / number2;
         System.out.println(result);
+
     }
 }
