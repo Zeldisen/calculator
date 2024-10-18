@@ -12,6 +12,15 @@ public class Main {
         number2 = scanner.nextInt();
 
 
+        addition(number1,number2);
+        subtraktion(number1,number2);
+        multiplication(number1,number2);
+        division(number1,number2);
+      
+   public static void addtion(int number1, int number2) {
+        int result = number1 + number2;
+        System.out.println(result);
+    }
     
 
     public static void subtraction(int number1, int number2) {
@@ -31,18 +40,5 @@ public class Main {
 
     }
 
-    public static void substraction(int number1, int number2) {
-        int substractionNumbers = number1 - number2;
-        System.out.println(substractionNumbers);
-    }
-
-    public static void multiplication(int number1, int number2) {
-        int multiplicationNumbers = number1 * number2;
-        System.out.println(multiplicationNumbers);
-    }
-
-    public static void division(int number1, int number2) {
-        int divisionNumbers = number1 / number2;
-        System.out.println(divisionNumbers);
-    }
+  
 }
