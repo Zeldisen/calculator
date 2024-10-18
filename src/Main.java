@@ -58,10 +58,14 @@ boolean running = true;
                     number2 = scanner.nextInt();
                     division(number1, number2);
                     break;
+                case 5:
+                     System.out.println("Exit");
+                    running = false;
+                    break;
 
                 default:
-                    System.out.println("Exit");
-                    running = false;
+                    System.out.println("Invalid choise");
+                    
             }
 
         }
